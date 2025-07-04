@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+env/
+ENV/
+*.env
+.env.*
+venv*
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node.js (if you were to add a Node build process for frontend later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # If you're not committing it for a specific reason
+# but usually it's good to commit package-lock.json or yarn.lock
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local configuration files (example, adjust if needed)
+# local_settings.py
+
+# Sensitive files - ADD ANY OTHER SENSITIVE FILES HERE
+# example.key
+# credentials.json

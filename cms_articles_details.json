@@ -1,0 +1,62 @@
+[
+  {
+    "Article Date": "May 13, 2025",
+    "Article Heading": "Making America Healthy Again: Innovation for Healthier Lives",
+    "Article Link": "https://www.cms.gov/newsroom/blog/making-america-healthy-again-innovation-healthier-lives",
+    "Article first few lines": "Share By Abe Sutton, Director of the Center for Medicare and Medicaid Innovation and Deputy Administrator for the Centers for Medicare & Medicaid Services Making America Healthy Again: Innovation for Healthier LivesTransforming our health system for prevention, patient empowerment, and competition",
+    "Impact": "Significant",
+    "Impact_score": 7,
+    "Impact_score_reason": "This article is a strategic statement from the Director of CMMI, outlining a key focus on prevention, patient empowerment, and value-based care. It signals the future direction of CMMI models and payment reforms for Medicare and Medicaid, which will have significant implications for healthcare providers, payers, and potentially the pharmaceutical industry by influencing care delivery and reimbursement.",
+    "Sentiment": "Positive"
+  },
+  {
+    "Article Date": "Jun 20, 2025",
+    "Article Heading": "2025 Marketplace Integrity and Affordability Final Rule",
+    "Article Link": "https://www.cms.gov/newsroom/fact-sheets/2025-marketplace-integrity-and-affordability-final-rule",
+    "Article first few lines": "Share Introduction Today, the Centers for Medicare & Medicaid Services (CMS) issued the \u201cPatient Protection and Affordable Care Act; Marketplace Integrity and Affordability Final Rule,\u201d setting standards for the Health Insurance Marketplaces, which connect millions of consumers to Affordable Care A...",
+    "Impact": "Significant",
+    "Impact_score": 8,
+    "Impact_score_reason": "This is a significant CMS final rule setting standards for the ACA Health Insurance Marketplaces, impacting millions of consumers, insurers, agents/brokers, and states. Key provisions modify eligibility (excluding DACA recipients), strengthen enrollment verification processes (especially for SEPs), and enhance integrity measures, directly affecting access to coverage and operational procedures within this critical segment of the healthcare system.",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Article Date": "Mar 10, 2025",
+    "Article Heading": "2025 Marketplace Integrity and Affordability Proposed Rule",
+    "Article Link": "https://www.cms.gov/newsroom/fact-sheets/2025-marketplace-integrity-and-affordability-proposed-rule",
+    "Article first few lines": "Share Introduction Today, the Centers for Medicare & Medicaid Services (CMS) issued the \u201cMarketplace Integrity and Affordability Proposed Rule\u201d that proposes standards for the Health Insurance Marketplaces, as well as for health insurance issuers, brokers, and agents who connect millions of consume...",
+    "Impact": "Significant",
+    "Impact_score": 8,
+    "Impact_score_reason": "This is a proposed rule from CMS directly impacting the Affordable Care Act (ACA) Marketplaces, affecting eligibility, enrollment processes, agent/broker standards, essential health benefits, and actuarial value. These changes have significant implications for health insurance issuers, brokers, and millions of consumers, potentially altering market dynamics, operational requirements, and access to coverage or specific benefits for certain populations.",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Article Date": "Apr 07, 2025",
+    "Article Heading": "2026 Medicare Advantage and Part D Rate Announcement",
+    "Article Link": "https://www.cms.gov/newsroom/fact-sheets/2026-medicare-advantage-and-part-d-rate-announcement",
+    "Article first few lines": "Share Today, the Centers for Medicare & Medicaid Services (CMS) released the Announcement of\u00a0Calendar Year (CY) 2026 Medicare Advantage (MA) Capitation Rates and Part C and Part D Payment Policies (the CY 2026 Rate Announcement). In the CY 2026 MA and Part D Advance Notice, CMS proposed updates to ...",
+    "Impact": "Significant",
+    "Impact_score": 8,
+    "Impact_score_reason": "This is a finalized CMS announcement regarding payment rates and policies for Medicare Advantage and Part D, two major government programs. The projected 5.06% increase, totaling over $25 billion, has significant financial and operational implications for health insurers operating MA plans and influences the pharmaceutical market through Part D. This represents a notable market shift driven by policy.",
+    "Sentiment": "Positive"
+  },
+  {
+    "Article Date": "Jun 30, 2025",
+    "Article Heading": "Calendar Year (CY) 2026 End-Stage Renal Disease (ESRD) Prospective Payment System Proposed Rule - CMS-1830-P",
+    "Article Link": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-end-stage-renal-disease-esrd-prospective-payment-system-proposed-rule-cms-1830",
+    "Article first few lines": "Share On June 30, 2025, the Centers for Medicare & Medicaid Services (CMS) issued a proposed rule to update payment rates and policies under the End-Stage Renal Disease (ESRD) Prospective Payment System (PPS) for renal dialysis services furnished to Medicare beneficiaries on or after January 1, 202...",
+    "Impact": "Significant",
+    "Impact_score": 7,
+    "Impact_score_reason": "This is a proposed rule from CMS updating the End-Stage Renal Disease (ESRD) Prospective Payment System (PPS) for CY 2026. It directly impacts payment rates for dialysis services provided to Medicare beneficiaries and proposes changes to the ESRD Quality Incentive Program (QIP). While the payment update percentage is moderate (1.9%), CMS payment rules for a major service like dialysis have significant operational and financial implications for facilities and providers in this specific sector.",
+    "Sentiment": "Neutral"
+  },
+  {
+    "Article Date": "Jun 30, 2025",
+    "Article Heading": "Calendar Year (CY) 2026 Home Health Prospective Payment System Proposed Rule Fact Sheet (CMS-1828-P)",
+    "Article Link": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-home-health-prospective-payment-system-proposed-rule-fact-sheet-cms-1828-p",
+    "Article first few lines": "Share On June 30, 2025, the Centers for Medicare & Medicaid Services (CMS) issued a proposed rule that proposes updates to Medicare payment policies and rates for home health agencies (HHAs) under the\u00a0Home Health (HH) Prospective Payment System (PPS) Proposed Rule for calendar year (CY) 2026. CMS i...",
+    "Impact": "Significant",
+    "Impact_score": 8,
+    "Impact_score_reason": "The proposed CMS rule details significant permanent (-4.059%) and temporary (-5.0%) payment reductions for home health agencies in 2026. This represents a major policy change that will substantially impact the financial health and operational strategies of HHAs, potentially leading to significant market shifts.",
+    "Sentiment": "Negative"
+  }
+]

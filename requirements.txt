@@ -1,0 +1,15 @@
+Flask
+requests
+beautifulsoup4
+flask-cors
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+duckduckgo-search
+tavily-python
+python-dotenv
+reportlab
+
+
+

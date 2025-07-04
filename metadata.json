@@ -1,0 +1,5 @@
+{
+  "name": "CMS Article Viewer - Iteration 1",
+  "description": "Displays articles from a local JSON file in a card layout using React and Tailwind CSS.",
+  "requestFramePermissions": []
+}

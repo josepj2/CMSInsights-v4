@@ -1,0 +1,97 @@
+prompt = f"""You are an expert pharmaceutical regulatory and business impact analyst. Evaluate the potential impact of this article on pharmaceutical companies, focusing on regulatory changes, cross-functional implications, scope determination, and remediation requirements. Assign an impact score from 0 to 10.
+
+Article Title: {article_title}
+Article Source URL: {article_url}
+Article Content:
+{article_content[:2000]}
+
+**COMPREHENSIVE IMPACT SCORING CRITERIA (0-10):**
+
+**REGULATORY CHANGE CLASSIFICATION WEIGHT:**
+- **Regulation Changes** (FDA/CMS binding requirements): +3-4 points
+- **Guidance Changes** (FDA interpretive policies): +2-3 points  
+- **Standards Changes** (Quality/technical specs): +1-2 points
+- **Policy Changes** (Reimbursement/coverage): +2-3 points
+- **Other** (Legislative/court decisions): +1-4 points
+
+**CROSS-FUNCTIONAL IMPACT ASSESSMENT:**
+- **Single Function Impact**: +1 point
+- **2-3 Functions Affected**: +2 points
+- **4-5 Functions Affected**: +3 points
+- **Enterprise-wide Impact**: +4 points
+
+**SCOPE DETERMINATION MULTIPLIER:**
+- **Process Only**: Base score
+- **Single Product Line**: +1 point
+- **Multiple Product Lines**: +2 points
+- **Entire Portfolio**: +3 points
+- **Industry-wide**: +4 points
+
+**REMEDIATION COMPLEXITY FACTOR:**
+- **Documentation Updates Only**: +0 points
+- **Process Modifications**: +1 point
+- **System Changes + Testing**: +2 points
+- **Regulatory Submissions Required**: +3 points
+- **Multi-year Implementation**: +4 points
+
+**FINAL IMPACT SCORE MAPPING:**
+
+* **0-2 (Low Impact):** 
+  - Minor guidance clarifications or administrative updates
+  - Single function impact with documentation changes only
+  - No regulatory submissions required
+  - Minimal business disruption
+
+* **3-4 (Moderate Impact):**
+  - Routine policy updates or minor guidance changes
+  - 2-3 functions affected with process modifications
+  - Single product line scope
+  - Standard regulatory submissions (CBE-30, Annual Reports)
+  - 6-12 month implementation timeline
+
+* **5-6 (Significant Impact):**
+  - Important regulatory changes or new guidance
+  - 4-5 functions affected requiring system changes
+  - Multiple product lines or therapeutic areas
+  - Prior Approval Supplements or new submissions required
+  - 12-18 month implementation with testing/validation
+
+* **7-8 (High Impact):**
+  - Major regulatory changes with binding requirements
+  - Enterprise-wide cross-functional impact
+  - Portfolio-wide scope affecting multiple products
+  - Complex regulatory submissions with clinical data
+  - 18-24 month multi-phase implementation
+  - Significant financial and operational implications
+
+* **9 (Very High Impact):**
+  - Critical regulatory changes with immediate compliance requirements
+  - Industry-wide implications affecting all major players
+  - Complete portfolio review and potential restructuring
+  - Multiple complex regulatory submissions across regions
+  - Multi-year remediation with substantial resource allocation
+  - Market access and competitive positioning implications
+
+* **10 (Extremely High Impact):**
+  - Transformational regulatory changes reshaping industry
+  - All business functions requiring fundamental restructuring
+  - Industry-wide scope with potential market disruption
+  - Comprehensive regulatory strategy overhaul required
+  - Multi-year, multi-billion dollar remediation efforts
+  - Potential product withdrawals or market exits
+  - AMGEN specifically mentioned or directly targeted
+
+**EVALUATION FRAMEWORK:**
+1. Identify the regulatory change type and classification
+2. Assess cross-functional impact across all business areas
+3. Determine scope (process vs. product, single vs. multiple)
+4. Evaluate remediation complexity and timeline requirements
+5. Calculate cumulative impact score using the criteria above
+6. Provide comprehensive justification covering all four dimensions
+
+Provide your analysis as a JSON object with exactly these fields:
+{{
+  "Impact_score": <integer from 0 to 10>,
+  "Impact_score_reason": "<comprehensive justification covering regulatory change type, cross-functional impact, scope determination, and remediation requirements>",
+  "Impact": "<one of: Low, Moderate, Significant, High, Very High, Extremely High>"
+}}"""
