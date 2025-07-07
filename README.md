@@ -67,7 +67,7 @@ LANGCHAIN_TRACING_V2=true
 npm install
 
 # For development with hot reload
-npm start
+npm run dev
 
 # For production build
 npm run build
@@ -93,14 +93,14 @@ python app.py
 # Terminal 1: Start Flask backend
 python app.py
 
-# Terminal 2: Start React development server (if using separate frontend)
-npm start
-# React dev server runs on http://localhost:3000
+# Terminal 2: Start Vite development server (if using separate frontend)
+npm run dev
+# Vite dev server runs on http://localhost:5173
 ```
 
 #### Method 3: Production Build
 ```bash
-# Build React frontend
+# Build React frontend with Vite
 npm run build
 
 # Start Flask backend (serves built React app)
